@@ -1,0 +1,21 @@
+From: Sophie Brun <sophie@offensive-security.com>
+Date: Fri, 18 Jun 2021 14:17:14 +0200
+Subject: Change ldflags
+
+---
+ makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/makefile b/makefile
+index 4142789..8338f9b 100755
+--- a/makefile
++++ b/makefile
+@@ -9,7 +9,7 @@ BIN = /usr/bin
+ all: spooftooph
+ 
+ spooftooph:
+-	$(CC) $(BT_LIB) $(NCURSES_LIB) $(PTHREAD) dev_class.c namelist.c spooftooph.c bdaddr.c oui.c -o spooftooph
++	$(CC) $(PTHREAD) dev_class.c namelist.c spooftooph.c bdaddr.c oui.c -o spooftooph $(BT_LIB) $(NCURSES_LIB)
+ 
+ install:
+ 	cp spooftooph $(BIN)
