@@ -1,9 +1,9 @@
 Source: spooftooph
 Section: utils
-Priority: extra
+Priority: optional
 Maintainer: Kali Developers <devel@kali.org>
 Build-Depends: debhelper-compat (= 13), libncurses5-dev, libbluetooth-dev
-Standards-Version: 3.9.3
+Standards-Version: 4.5.1
 Homepage: http://www.hackfromacave.com/projects/spooftooph.html
 Vcs-Git: https://gitlab.com/kalilinux/packages/spooftooph.git
 Vcs-Browser: https://gitlab.com/kalilinux/packages/spooftooph
