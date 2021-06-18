@@ -1,3 +1,19 @@
+spooftooph (0.5.2-1kali1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Maintainer field
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Add a patch to change ldflags order
+  * Use debhelper-compat 13
+  * Bump Standards-Version to 4.5.1
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 18 Jun 2021 14:34:13 +0200
+
 spooftooph (0.5.2-1kali0) kali; urgency=low
 
   * Initial release 
