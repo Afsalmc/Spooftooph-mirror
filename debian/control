@@ -2,6 +2,8 @@ Source: spooftooph
 Section: utils
 Priority: optional
 Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Devon Kearns <dookie@kali.org>,
+           Sophie Brun <sophie@offensive-security.com>,
 Build-Depends: debhelper-compat (= 13), libncurses5-dev, libbluetooth-dev
 Standards-Version: 4.5.1
 Homepage: http://www.hackfromacave.com/projects/spooftooph.html
