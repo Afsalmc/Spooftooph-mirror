@@ -1,3 +1,14 @@
+spooftooph (0.5.2-1kali2) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add Uploaders
+  * Remove template comment and switch spaces to tabs
+
+  [ Daniel Ruiz de Alegría ]
+  * Fix typos
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 11 Jul 2022 13:26:20 +0200
+
 spooftooph (0.5.2-1kali1) kali-dev; urgency=medium
 
   [ Raphaël Hertzog ]

@@ -1,0 +1,71 @@
+From: =?UTF-8?q?Daniel=20Ruiz=20de=20Alegr=C3=ADa?= <daniruiz@kali.org>
+Date: Mon, 11 Jul 2022 13:22:15 +0200
+Subject: Fix typos
+
+---
+ spooftooph.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/spooftooph.c b/spooftooph.c
+index 29e26cb..e647b4f 100644
+--- a/spooftooph.c
++++ b/spooftooph.c
+@@ -419,7 +419,7 @@ int choice_list(int page)
+ 	}
+ 
+ 	printw("\nPage %i of %i\n", (page + 1), ((numaddrs-1)/num_list + 1));
+-	printw("\n's' make selection, 'p' previous page, 'n' next page, 'q' quite: ");
++	printw("\n's' make selection, 'p' previous page, 'n' next page, 'q' quit: ");
+ 
+ 	
+ //	printw("Number of scans: %i", thread_count);
+@@ -902,13 +902,13 @@ int main(int argc, char **argv)
+ 				if (mitm) {
+ 					char hcidev[6] = {0};
+ 
+-					printw("\n\nProvide interface and hit ENTER (Ctrl+C to quite): ");
++					printw("\n\nProvide interface and hit ENTER (Ctrl+C to quit): ");
+ //					refresh();
+ 					getnstr(hcidev, 6);
+ 					timeout(100000);		
+ 					hdev = atoi(hcidev + 3);
+ 
+-					printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quite): ");
++					printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quit): ");
+ //					refresh();
+ 					getnstr(string_choice, 3);
+ 					timeout(100000);		
+@@ -934,7 +934,7 @@ int main(int argc, char **argv)
+ //						exit(0);
+ 					}
+ 				} else {
+-					printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quite): ");
++					printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quit): ");
+ 					refresh();
+ 					getnstr(string_choice, 3);
+ //						timeout(100);		
+@@ -1057,13 +1057,13 @@ int main(int argc, char **argv)
+ 					if (mitm) {
+ 						char hcidev[6] = {0};
+ 
+-						printw("\n\nProvide interface and hit ENTER (Ctrl+C to quite): ");
++						printw("\n\nProvide interface and hit ENTER (Ctrl+C to quit): ");
+ //						refresh();
+ 						getnstr(hcidev, 6);
+ 						timeout(100000);		
+ 						hdev = atoi(hcidev + 3);
+ 
+-						printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quite): ");
++						printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quit): ");
+ //						refresh();
+ 						getnstr(string_choice, 3);
+ 						timeout(100000);		
+@@ -1089,7 +1089,7 @@ int main(int argc, char **argv)
+ //							exit(0);
+ 						}
+ 					} else {
+-						printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quite): ");
++						printw("\n\nMake selection by reference number and hit ENTER (Ctrl+C to quit): ");
+ 						refresh();
+ 						getnstr(string_choice, 3);
+ //						timeout(100);		
