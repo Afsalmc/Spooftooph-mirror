@@ -14,10 +14,10 @@ Package: spooftooph
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libncurses5, bluez
 Description: Automates spoofing or cloning Bluetooth devices
- Spooftooph is designed to automate spoofing or cloning 
- Bluetooth device Name, Class, and Address. Cloning this 
- information effectively allows Bluetooth device to hide in 
- plain site. Bluetooth scanning software will only list one 
- of the devices if more than one device in range shares the 
- same device information when the devices are in Discoverable 
- Mode (specificaly the same Address). 
+ Spooftooph is designed to automate spoofing or cloning
+ Bluetooth device Name, Class, and Address. Cloning this
+ information effectively allows Bluetooth device to hide in
+ plain site. Bluetooth scanning software will only list one
+ of the devices if more than one device in range shares the
+ same device information when the devices are in Discoverable
+ Mode (specificaly the same Address).
