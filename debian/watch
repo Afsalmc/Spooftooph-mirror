@@ -1,2 +1,4 @@
 version=4
-https://sf.net/spooftooph/spooftooph-(.*)\.tar\.gz
+opts=searchmode=plain \
+https://sourceforge.net/projects/spooftooph/rss?limit=10000000000000000000 \
+https?://.*/spooftooph-(.*)\.tar\.gz
