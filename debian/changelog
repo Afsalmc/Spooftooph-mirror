@@ -1,3 +1,18 @@
+spooftooph (0.5.2-1kali3) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Update standards version to 4.6.1, no changes needed.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Steev Klimaszewski ]
+  * d/watch: Update to use sourceforge not debian redirector.
+  * Fix ncurses dependency
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Sat, 08 Apr 2023 20:20:42 -0500
+
 spooftooph (0.5.2-1kali2) kali-dev; urgency=medium
 
   [ Ben Wilson ]
