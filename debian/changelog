@@ -1,3 +1,9 @@
+spooftooph (0.5.2-1kali4) kali-dev; urgency=medium
+
+  * Remove useless and obselete dep on libncurses5
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 12 Jul 2023 14:31:26 +0200
+
 spooftooph (0.5.2-1kali3) kali-dev; urgency=medium
 
   [ Kali Janitor ]
