@@ -12,7 +12,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/spooftooph
 
 Package: spooftooph
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libncurses5, bluez
+Depends: ${shlibs:Depends}, ${misc:Depends}, bluez
 Description: Automates spoofing or cloning Bluetooth devices
  Spooftooph is designed to automate spoofing or cloning
  Bluetooth device Name, Class, and Address. Cloning this
