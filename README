@@ -33,13 +33,6 @@ DISCLAIMED.
 Spooftooph is designed to automate spoofing or cloning Bluetooth device 
 Name, Class, and Address.  See 'Usage' for more information of its capabilities.
 
-  ABOUT THIS FORK
-
-Users like me on openSUSE TW were getting errors like 
-`undefined reference to symbol 'wtimeout@@NCURSES6` and `libtinfo.so: error adding symbols: DSO missing from command line`
-while compiling Spooftooph. This is due to the fact that  ncurses is sometimes split into two libraries, ncurses and tinfo.
-https://stackoverflow.com/a/51924150/10844069
-
   INSTALL
 
 1. Run "make" to compile binaries.
