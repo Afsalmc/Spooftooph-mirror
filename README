@@ -33,6 +33,8 @@ DISCLAIMED.
 Spooftooph is designed to automate spoofing or cloning Bluetooth device 
 Name, Class, and Address.  See 'Usage' for more information of its capabilities.
 
+
+
   INSTALL
 
 1. Run "make" to compile binaries.
